@@ -1,5 +1,8 @@
 # Improved-platformer-gameplay
 Improved collision, controls, mechanics, run speed, alot of extra features... Made with modularity in mind.
+CONTROLS:
+-At the start menu use the mouse to pick a menu option or the arrow keys and x key to select an option
+-The game also has controller support. plug a ps4 or xbox controller in and test the game
 
 -This game uses a design pattern that mimics a finite-state machine. 
 Different systems such as the 'start screen' operate with adifferent update method when its time to move to the main game state the start screen state deactivates and the main game state starts. individual objects such as the player have there own states to be manipulated for things such as deactivating player movement while in debug mode.
